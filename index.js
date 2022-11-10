@@ -105,6 +105,7 @@ db.posts.updateOne({ title: 'title1' },
 db.users.updateOne({ username: "User1" },
     {
         $set: {
+            username: "User2.0",
             email: "user1.0@gmail.com",
             age: 12
         }
